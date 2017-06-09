@@ -3,7 +3,6 @@ package com.example.jhonatanalvarezcaicedo.moviesfeedapp.view.adapter;
 import android.support.v4.app.Fragment;
 import android.support.v4.app.FragmentManager;
 import android.support.v4.app.FragmentStatePagerAdapter;
-import android.support.v4.content.ContextCompat;
 
 import com.example.jhonatanalvarezcaicedo.moviesfeedapp.view.fragment.PopularFragment;
 import com.example.jhonatanalvarezcaicedo.moviesfeedapp.view.fragment.RatedFragment;
@@ -47,9 +46,12 @@ public class ViewPagerAdapter extends FragmentStatePagerAdapter {
     @Override
     public CharSequence getPageTitle(int position) {
         switch (position) {
-            case 0: return "Popular";
-            case 1: return "Top rated";
-            case 2: return "Upcoming";
+            case 0:
+                return "Popular";
+            case 1:
+                return "Top rated";
+            case 2:
+                return "Upcoming";
         }
         return super.getPageTitle(position);
     }
