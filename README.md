@@ -38,4 +38,14 @@ Paquete view
         UpcomingFragment -> Fragmento que soporta los datos correspondientes a la categoria de peliculas proximas (upcoming)
 
 
-* El principio de responsabilidad unica busca que cada objeto dentro de una representacion cumpla con un unico objetivo
+* El principio de responsabilidad unica busca que cada objeto dentro de una representacion cumpla con un unico objetivo, es un principio ideal que
+facilita la comprension del codigo, la idea es que cada clase sea tan simple como sea posible de esta forma temas de refactorizacion de codigo y
+responsabilidad de clases, mantengan un equilibrio deseado apuntando hacia mantener el bajo acoplamiento y la alta cohesion en el diseño del proyecto,
+para lograr este principio es necesario dividir el problema en pequeños problemas logrando facilitar la solucion de cada uno y dando como resultado la suma
+de todas las pequeñas soluciones en el problema resuelto
+
+* Determinar que tan limpio es el codigo producido en mi opinion esta basado en 2 pilares, en primer lugar la correcta abstraccion del diseño, donde
+el codigo limpio se diferencia del resto al evitar repetir funcionalidades a traves de una correcta implementacion de la reutilizacion junto con una
+jerarquia de tareas bien definida. Como segundo pilar en mi opinion se encuentra el mantener la simplicidad del codigo es decir que cada clase
+que se construya se explique por si misma, desde una correcta seleccion de nombres hasta una adecuada gestion de responsabilidades entre las clases
+son elementos de este pilar que dan resultados a medida que los proyectos se incrementan
