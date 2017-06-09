@@ -1,0 +1,12 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:appname="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.actiontechnology.coffeequalitic.activity.FragmentActivity">
+
+    <item
+        android:id="@+id/menu_send_eval"
+        android:icon="@drawable/ic_favorite_accent"
+        android:title="Enviar"
+        appname:showAsAction="ifRoom" />
+
+</menu>
